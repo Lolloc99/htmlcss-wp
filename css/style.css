@@ -139,6 +139,7 @@ html {
     margin-bottom: 15px;
     border-radius: 0.5em;
     overflow: hidden;
+    background-position: center;
 }
 
 .img-mid {
@@ -146,6 +147,18 @@ html {
     background-image: url(../img/banner-2.jpg);
     background-size: cover;
 
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    background-position: center;
+}
+
+.img-right {
+    position: relative;
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
     width: 100%;
     height: 200px;
     margin-bottom: 15px;
