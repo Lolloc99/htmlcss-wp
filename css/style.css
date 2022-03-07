@@ -12,13 +12,17 @@ html {
 .container {
     margin: auto;
     width: 80%;
-    max-width: 1400px;
+    max-width: 1000px;
 }
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.cont-wid {
+    width: 100%;
 }
 
 .mg-top {
@@ -34,20 +38,28 @@ html {
 }
 
 /* HEADER */
-header {
-    background-color: #e579e6;
-    width: 100%;
-    height: 90px;
+#logo {
+    width: auto;
+    height: 50px;
+    border-right: 1px solid lightgrey;
+    padding-right: 10px;
+}
+
+/* NAV */
+.nav a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 10px;
+    margin-top: 15px;
 }
 
 /* MAIN */
-#giallo {
-    background-color: #e1d67a;
-    width: 100%;
-    height: 300px;
+#sez1 {
+    border: 5px solid #e1d67a;
+    height: 400px;
 }
 
-#blu {
+#sez2 {
     background-color: #0185ff;
     width: 100%;
     height: 400px;
