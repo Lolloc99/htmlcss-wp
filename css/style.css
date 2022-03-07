@@ -54,12 +54,7 @@ html {
 }
 
 /* MAIN */
-/* #sez1 {
-    position: relative;
-    width: 100%;
-    height: 400px;
-} */
-
+/* SEZIONE 1 */
 #banner {
     position: relative;
     width: 100%;
@@ -99,7 +94,7 @@ html {
     height: 400px;
 }
 
-/* SEZIONE BLU */
+/* SEZIONE 2 */
 .celeste {
     background-color: #abcfe7;
 }
