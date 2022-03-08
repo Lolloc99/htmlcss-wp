@@ -28,7 +28,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .2);
 }
 
 .full-wid {
@@ -58,9 +58,21 @@ html {
 /* NAV */
 .nav a{
     text-decoration: none;
-    color: grey;
+    color: inherit;
     margin-right: 10px;
     margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav li{
+    padding-right: .5em;
+    display: inline-block;
+    color: grey;
 }
 
 /* MAIN */
@@ -97,11 +109,6 @@ html {
 
 .testo h1{
     margin-bottom: 3px;
-}
-
-.blu-top {
-    width: 100%;
-    height: 12%;
 }
 
 .blu-aside {
@@ -170,4 +177,12 @@ html {
 /* FOOTER */
 footer {
     text-align: center;
+    padding: 1em;
 }
+
+#heart {
+    color: red;
+    font-size: large;
+}
+
+/* Cambiare le 3 immagini di background con elementi img veri e propri */
